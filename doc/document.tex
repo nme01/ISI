@@ -1,0 +1,120 @@
+\documentclass[11pt,a4paper]{article}
+
+% basic packages
+\usepackage{float}
+\usepackage{polski}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage[utf8x]{inputenc}
+\usepackage{fullpage}
+
+% bibliography and links
+\usepackage{url}
+\usepackage{cite}
+\def\UrlBreaks{\do\/\do-}
+\usepackage[hidelinks]{hyperref}
+
+% graphs
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+
+\begin{document}
+
+\begin{titlepage}
+  \begin{center}
+
+    \textsc{\Large Politechnika Warszawska}\\[0.1cm]
+    \small Wydział Elektroniki i Technik Informacyjnych
+    \vfill
+
+    \textsc{\small Inteligentne Systemy Informacyjne}\\[0.1cm]
+    \Huge Eliza-like Chatting Bot\\[1.5cm]
+
+    \vfill
+
+    \begin{minipage}{0.4\textwidth}
+      \begin{flushleft} \large
+        \emph{Autor:}\\[0.1cm]
+        Jacek \textsc{Witkowski}\\
+      \end{flushleft}
+    \end{minipage}
+
+    \vfill
+    {\large 6 lutego 2015}
+
+  \end{center}
+\end{titlepage}
+\section{Wstęp}
+Zadaniem projektu było stworzenie programu potrafiącego prowadzić rozmowę
+z~użytkownikiem. Przyjąłem, że~temat rozmowy będzie ograniczony do~muzyki
+rockowej, ponieważ wcześniej posiadałem już bazę reguł mogącą posłużyć
+za~fundament budowy odpowiedniej bazy wiedzy dla~tego projektu.
+
+\section{Opis działania}
+Program swoje działanie opiera na bazie reguł, które zawierają następujące
+informacje:
+\begin{enumerate}
+  \item zbiór możliwych wejść (tekstów wpisywanych przez użytkownika),
+  \item zbior możliwych wyjść (komunikatów wypisywanych przez program),
+  \item (opcjonalnie) informacja czy reguła ma zakończyć działanie programu.
+\end{enumerate}
+
+Przykładowo, gdy użytkownik wpisze ,,WHAT IS YOUR NAME'' otrzyma odpowiedź
+,,MY~NAME IS~ELIZA''.
+
+\subsection{Przebieg interakcji z użytkownikiem}
+Konwersację zawsze rozpoczyna użytkownik. Tekst wpisany przez użytkownika jest
+przekazywany do~obiektu \textit{ResponsesGenerator}, którego zadaniem jest
+wygenerowanie odpowiedzi. W~pierwszej kolejności obiekt sprawdza czy~użytkownik
+w poprzednim komunikacie nie napisał tego samego co bieżącym. Jeśli tak, to
+wysyłana jest jedna z odpowiedzi ze zbioru \textit{repeatResponseDescriptors}.
+Jeśli nie~to:
+\begin{enumerate}
+  \item wyszukiwane są reguły, których wejście pasuje do wpisanego przez
+  użytkownika (czyli te, których wejście zawiera się w początku napisu
+  podanego prez użytkownika),
+  \item wyizolowanie tych reguł, które najlepiej pasują do~tekstu wprowadzonego
+  przez~użytkownika,
+  \item z~najbardziej dopasowanych reguł, wybierana jest losowo jedna,
+  \item tworzona jest odpowiedź na podstawie wybranej reguły i wpisanego przez
+  użytkownika tekstu
+\end{enumerate}
+
+\subsection{Przetwarzanie odpowiedzi}
+W czwartym kroku algorytmu przedstawionego wyżej generowana jest odpowiedź
+na~podstawie reguły i wejścia. Jeśli w~regule wyjście jest napisem
+nie~zawierającym znakow *, to jest ono po prostu zwracane w oryginalnej formie.
+Jeśli natomiast znaki * występują, wówczas są one zastępowane tekstem
+generowanym na~podstawie wejścia użytkownika. Przykładowo załóżmy, że użytkownik
+wpisał \textit{,,MY NAME IS JACK''}, a istnieje reguła o wejściu: \textit{,,MY
+NAME IS''} i wyjściu \textit{DO YOU LIKE MUSIC,*?}. Wówczas * zostanie
+zastąpiona tekstem, który ,,wystaje'' poza to, co~udało się~dopasować.
+Wiadomością, którą otrzyma użytkownik, będzie: \textit{DO YOU LIKE MUSIC,
+\textbf{JACK}?}.
+
+\subsubsection{Transpozycje} Dodatkowym krokiem podczas przetwarzania odpowiedzi
+jest zastosowanie transpozycji, czyli zamiana niektórych słów zgodnie ze
+zdefiniowanymi regułami (np. ,,I'M'' $\rightarrow$ ,,YOU'RE''). Transpozycji
+poddawane są tylko te teksty, które są wstawiane zamiast * w odpowiedzi.
+Przykładowo załóżmy, że reguła ma wejście: \textit{,,I THINK I''} i~wyjście
+\textit{,,DO YOU REALLY*?''}. Wówczas jeśli użytkownik wpisze \textit{,,I THINK
+I LIKE YOU''} otrzyma odpowiedź: \textit{,,DO YOU REALLY LIKE ME?''}.
+
+\section{Możliwości rozwoju}
+W~pierwszym kroku należało by ulepszyć utrzymywanie kontekstu wypowiedzi
+(obecnie pamiętana jest co najwyżej jedna poprzednia odpowiedź, co~jest sporym
+uproszczeniem). Należałoby stworzyć ontologię reprezentującą różne tematy
+rozmów i~ich~wzajemne relacje. Wówczas reguły mogłby by definiować w~jakim kontekście
+mają być stosowane i~do jakiego kontekstu należy przejść.
+
+Drugim możliwym usprawnieniem byłoby wprowadzenie mechanizmu samouczenia.
+W najprostszej wersji program mógłby przyjmować bezpośrednio
+od~użytkownika sugestie jak~należy odpowiadać na zadane pytania.
+
+W kolejnym kroku można byłoby ulepszyć dopasowywanie reguł do~wprowadzonego
+przez~użytkownika napisu. Przykładowo można byłoby wyszukiwać odpowiednie
+reguły wg~słów kluczowych (wymagałoby to sprowadzenia każdego słowa
+występującego w~tekście wprowadzonym przez~użytkownika do~swojej podstawowej
+formy).
+\end{document}

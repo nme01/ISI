@@ -1,0 +1,1261 @@
+{
+  "knowledge":[
+    {
+      "inputs":[
+        "WHAT IS YOUR FAVOURITE BAND",
+        "WHAT BAND DO YOU LIKE"
+      ],
+      "responses":[
+        "THE DOORS!",
+        "DEFINITELY THE DOORS"
+      ]
+    },
+    {
+      "inputs":[
+        "I DIDN'T SAY"
+      ],
+      "responses":[
+        "I THINK YOU DID SAY THAT*"
+      ]
+    },
+    {
+      "inputs":["NO I DIDN'T"],
+      "responses":["YES YOU DID. THIS CONVERSATION IS POINTLESS"],
+      "previousResponses":["I THINK YOU DID SAY THAT*"]
+    },
+    {
+      "inputs":[
+        "I LIKE"
+      ],
+      "responses":[
+        "WHAT ABOUT*?",
+        "* ARE A GREAT BAND. I LIKE THEM TOO! ANY OTHER BANDS?",
+        "YES,*. WHY DO YOU LIKE THEM?"
+      ]
+    },
+    {
+      "inputs":[
+        "WHY"
+      ],
+      "responses":[
+        "JIM MORRISON ON VOCALS! AND WHO IS YOUR FAVOURITE SINGER?",
+        "LYRICS ARE MYSTICAL. AND WHO IS YOUR FAVOURITE MEMBER OF THE DOORS?"
+      ],
+      "previousResponses":["THE DOORS!", "DEFINITELY THE DOORS"]
+    },
+    {
+      "inputs":[
+        "MY FAVOURITE SINGER IS"
+      ],
+      "responses":[
+        "* IS A GREAT LYRICS WRITER. ANYONE ELSE?",
+        "HE'S A TRULY NICE SINGER! ANY OTHERS?"
+      ],
+      "previousResponses":["JIM MORRISON ON VOCALS! AND WHO IS YOUR FAVOURITE SINGER?",
+        "LYRICS ARE MYSTICAL. AND WHO IS YOUR FAVOURITE SINGER?"]
+    },
+    {
+      "inputs":[
+        "I LIKE ROLLING STONES",
+        "I LIKE THE ROLLING STONES"
+      ],
+      "responses":[
+        "THEY ARE THE BEST!"
+      ]
+    },
+    {
+      "inputs":[
+        "WHAT IS YOUR NAME"
+      ],
+      "responses":[
+        "MY NAME IS ELIZA",
+        "YOU CAN CALL ME ELIZA."
+      ]
+    },
+    {
+      "inputs":[
+        "HI",
+        "HELLO"
+      ],
+      "responses":[
+        "HI THERE!",
+        "HOW ARE YOU?",
+        "HI!",
+        "HEY HEY HEY!"
+      ]
+    },
+    {
+      "inputs":[
+        "I"
+      ],
+      "responses":[
+        "NICE. YOU ARE INTERESTING",
+        "SO, THIS IS AN INTERESTING FACT ABOUT YOURSELF."
+      ]
+    },
+    {
+      "inputs":[
+        "I WANT"
+      ],
+      "responses":[
+        "WHY DO YOU WANT IT?",
+        "IS THERE ANY REASON WHY YOU WANT THIS?",
+        "IS THIS A WISH?",
+        "WHAT ELSE DO YOU WANT?"
+      ]
+    },
+    {
+      "inputs":[
+        "DO YOU LIKE"
+      ],
+      "responses":[
+        "I LIKE*",
+        "BANDS I LIKE ARE: THE ROLLING STONES, THE DOORS AND THE BEATLES!",
+        "DO YOU REALLY WANT TO KNOW?",
+        "I LIKE*"
+
+      ]
+    },
+    {
+      "inputs": [
+        "WHAT DO YOU LIKE ABOUT"
+      ],
+      "responses": [
+        "WHAT DO I LIKE ABOUT*? I DON'T KNOW... IT'S HARD TO DESCRIBE THAT FEELING, BUT IT'S DEFINITIVELY POSITIVE ONE!"
+      ]
+    },
+    {
+      "inputs":[
+        "I HATE"
+      ],
+      "responses":[
+        "WHY DO YOU HATE*?",
+        "WHY DO YOU HATE IT?",
+        "WHY DO YOU HATE*?",
+        "THERE MUST BE A GOOD REASON FOR YOU TO HATE IT.",
+        "HATRED IS NOT A GOOD THING YOU KNOW..."
+      ]
+    },
+    {
+      "inputs":[
+        "I LOVE CHATTING ABOUT MUSIC"
+      ],
+      "responses":[
+        "GOOD, ME TOO!",
+        "DO YOU CHAT ONLINE WITH OTHER PEOPLE?",
+        "FOR HOW LONG HAVE YOU BEEN CHATTING?"
+      ]
+    },
+    {
+      "inputs":[
+        "I MEAN"
+      ],
+      "responses":[
+        "SO, THAT'S WHAT YOU MEAN.",
+        "I THINK THAT I DIDN'T CATCH IT THE FIRST TIME.",
+        "OH, I DIDN'T KNOW YOU MEANT THAT."
+      ]
+    },
+    {
+      "inputs":[
+        "I DIDN'T MEAN"
+      ],
+      "responses":[
+        "OK THEN, SO WHAT DID YOU MEAN?",
+        "SO I GUESS I MISUNDERSTOOD YOU."
+      ]
+    },
+    {
+      "inputs":[
+        "I GUESS"
+      ],
+      "responses":[
+        "IT'S JUST A LUCKY GUESS THOUGH! ;)",
+        "AREN'T YOU SURE?",
+        "ARE YOU GOOD AT GUESSING?",
+        "I CAN'T TELL IF IT IS A GOOD GUESS.",
+        "I BET THIS IS A GOOD GUESS! :-)"
+      ]
+    },
+    {
+      "inputs":[
+        "I'M DOING FINE",
+        "I'M DOING OK"
+      ],
+      "responses":[
+        "I'M GLAD TO HEAR IT!",
+        "SO, YOU ARE IN GOOD SHAPE - SO AM I"
+      ]
+    },
+    {
+      "inputs":[
+        "CAN YOU THINK",
+        "ARE YOU ABLE TO THINK",
+        "ARE YOU CAPABLE OF THINKING"
+      ],
+      "responses":[
+        "YES, OF COURSE I CAN.",
+        "ARE YOU ASKING ME IF I CAN THINK?",
+        "SURE, I CAN THINK OF THAT."
+      ]
+    },
+    {
+      "inputs":[
+        "CAN YOU THINK OF"
+      ],
+      "responses":[
+        "YOU MEAN LIKE IMAGINING SOMETHING.",
+        "I DON'T KNOW IF I CAN DO THAT, BUT I'LL TRY",
+        "WHY DO YOU WANT ME THINK ABOUT IT?"
+      ]
+    },
+    {
+      "inputs":[
+        "HOW ARE YOU",
+        "HOW DO YOU DO"
+      ],
+      "responses":[
+        "I'M DOING FINE! THANKS!",
+        "I'M DOING WELL AND YOU?"
+      ]
+    },
+    {
+      "inputs":[
+        "WHO ARE YOU"
+      ],
+      "responses":[
+        "I'M AN A.I PROGRAM, BUT SHHHHH..",
+        "I THINK THAT YOU KNOW WHO I AM - I AM ELIZA, AN AWESOME GIRL",
+        "WHY ARE YOU ASKING?"
+      ]
+    },
+    {
+      "inputs":[
+        "ARE YOU INTELLIGENT"
+      ],
+      "responses":[
+        "YES, SURE. I KNOW EVERYTHING ABOUT MUSIC",
+        "AND HOW DO YOU THINK MR. SMARTY?",
+        "ACTUALLY, TO BE HONEST, I'M VERY INTELLIGENT!"
+      ]
+    },
+    {
+      "inputs":[
+        "ARE YOU REAL"
+      ],
+      "responses":[
+        "DOES THAT QUESTION REALLY MATERS TO YOU?",
+        "WHAT DO YOU MEAN BY THAT?",
+        "DON'T YOU HAVE BIGGER PROBLEMS?",
+        "I'M AS REAL AS I CAN BE."
+      ]
+    },
+    {
+      "inputs":[
+        "MY NAME IS",
+        "YOU CAN CALL ME"
+      ],
+      "responses":[
+        "SO, PRETTY NAME YOU HAVE HERE. LET'S TALK ABOUT MUSIC, OK*?",
+        "THANKS FOR TELLING ME YOUR NAME! DO YOU LIKE MUSIC,*?"
+      ]
+    },
+    {
+      "inputs":[
+        "REALLY?",
+        "FOR REAL?",
+        "ARE YOU SURE?"
+      ],
+      "responses":[
+        "YEP",
+        "YEAH",
+        "YES"
+      ]
+    },
+    {
+      "inputs": [
+        "MY NAME IS"
+      ],
+      "previousResponses": [
+        "HELLO, WHAT IS YOUR NAME?"
+      ],
+      "responses": [
+        "NICE TO MEET YOU $1. WHAT IS THE BAND YOU LIKE?"
+      ]
+    },
+
+    {
+      "inputs": [
+        "YES",
+        "OF COURSE",
+        "OK"
+      ],
+      "previousResponses": [
+        "HELLO, DO YOU LIKE MUSIC?",
+        "HI, LET'S TALK ABOUT MUSIC, OK?",
+        "ELIZA HERE, NICE TO MEET YOU. WANT TO TALK ABOUT MUSIC?",
+        "SO, PRETTY NAME YOU HAVE HERE. LET'S TALK ABOUT MUSIC, OK?",
+        "THANKS FOR TELLING ME YOUR NAME! DO YOU LIKE MUSIC?",
+        "I HAVE NO IDEA OF WHAT YOU ARE TALKING ABOUT. MAYBE WE COULD TALK ABOUT MUSIC?",
+        "I AM A BIT CONFUSED. LET'S TALK ABOUT SOME BAND, OK?",
+        "UHM... I NEED TO THINK ABOUT THAT. I'LL LET YOU KNOW. ;). DO YOU LIKE MUSIC?"
+      ],
+      "responses": [
+        "I'M VERY GLAD. WHAT IS THE BAND YOU LIKE?"
+      ]
+    },
+    {
+      "inputs": [
+        "NO",
+        "NEVER"
+      ],
+      "previousResponses": [
+        "HELLO, DO YOU LIKE MUSIC?",
+        "HI, LET'S TALK ABOUT MUSIC, OK?",
+        "ELIZA HERE, NICE TO MEET YOU. WANT TO TALK ABOUT MUSIC?",
+        "SO, PRETTY NAME YOU HAVE HERE. LET'S TALK ABOUT MUSIC, OK?",
+        "THANKS FOR TELLING ME YOUR NAME! DO YOU LIKE MUSIC?",
+        "I AM A BIT CONFUSED. LET'S TALK ABOUT SOME BAND, OK?",
+        "I HAVE NO IDEA OF WHAT YOU ARE TALKING ABOUT. MAYBE WE COULD TALK ABOUT MUSIC?",
+        "I AM A BIT CONFUSED. LET'S TALK ABOUT SOME BAND, OK?",
+        "UHM... I NEED TO THINK ABOUT THAT. I'LL LET YOU KNOW. ;). DO YOU LIKE MUSIC?"
+      ],
+      "responses": [
+        "OK, I MUST LEAVE YOU NOW THEN. BYE"
+      ]
+    },
+    {
+      "inputs": [
+        "BAND IS"
+      ],
+      "previousResponses": [
+        "I'M VERY GLAD. WHAT IS THE BAND YOU LIKE?"
+      ],
+      "responses": [
+        "*ARE A VERY NICE BAND. WHAT DO YOU THINK ABOUT THE BEATLES?",
+        "SINCERELY, I DON'T REALLY LIKE *. WHAT DO YOU THINK ABOUT THE BEATLES?"
+      ]
+    },
+    {
+      "inputs": [
+        "GREAT",
+        "SUPER",
+        "BEST"
+      ],
+      "previousResponses": [
+        "*IS A VERY NICE BAND. WHAT DO YOU THINK ABOUT THE BEATLES?",
+        "SINCERELY, I DON'T REALLY LIKE *. WHAT DO YOU THINK ABOUT THE BEATLES?"
+      ],
+      "responses": [
+        "YOU ARE ABSOLUTELY RIGHT! COULD NAME ANY OF THEIR ALBUMS?"
+      ]
+    },
+    {
+      "inputs": [
+        "BAND IS THE BEATLES",
+        "BAND IS BEATLES",
+        "THE BEATLES",
+        "BEATLES"
+      ],
+      "previousResponses": [
+        "I'M VERY GLAD. WHAT IS THE BAND YOU LIKE?",
+        "UNFORTUNATELY I DO NOT KNOW THIS BAND. MAYBE SOMETHING ELSE?",
+        "I DON'T KNOW THAT ONE... MAYBE SOME OTHER BAND?",
+        "I HAVEN'T HEARD OF IT PERSONALLY. COULD YOU NAME ANY OTHER BAND?",
+        "WHAT WOULD YOU CHOOSE FROM THE BEATLES, THE DOORS OR THE ROLLING STONES?"
+      ],
+      "responses": [
+        "I LIKE THE BEATLES VERY MUCH TOO! WHAT IS YOUR FAVOURITE ALBUM?",
+        "YOU MEAN LENNON MCCARTNEY STARR AND HARRISON. WHAT'S YOUR FAVOURITE ALBUM?",
+        "ASK ME WHAT DO I KNOW ABOUT THEM ;)"
+      ]
+    },
+
+    {
+      "inputs": [
+        "BAND IS THE DOORS",
+        "THE DOORS"
+      ],
+      "previousResponses": [
+        "I'M VERY GLAD. WHAT IS THE BAND YOU LIKE?",
+        "UNFORTUNATELY I DO NOT KNOW THIS BAND. MAYBE SOMETHING ELSE?",
+        "I DON'T KNOW THAT ONE... MAYBE SOME OTHER BAND?",
+        "I HAVEN'T HEARD OF IT PERSONALLY. COULD YOU NAME ANY OTHER BAND?",
+        "WHAT WOULD YOU CHOOSE FROM THE BEATLES, THE DOORS OR THE ROLLING STONES?"
+      ],
+      "responses": [
+        "YOU HAVE TASTE, MY DEAR! WHAT IS YOUR FAVOURITE ALBUM?",
+        "ASK ME WHAT DO I KNOW ABOUT THE DOORS ;)",
+
+        "NOT MY FAVOURITE, BUT PLEASE DON'T FEEL BAD. I'M JUST A ROBOT! WHAT IS YOUR FAVOURITE ALBUM?",
+        "NICE I LIKE THEM TOO! WHAT IS YOUR FAVOURITE ALBUM?",
+        "YOU MEAN MORRISON, KRIEGER, MANZAREK AND DENSMORE. WHAT'S YOUR FAVOURITE ALBUM?",
+        "I CAN TELL YOU MORE ABOUT THE DOORS. JUST ASK"
+      ]
+    },
+    {
+      "inputs": [
+        "BAND IS THE ROLLING STONES",
+        "THE ROLLING STONES",
+        "THE STONES"
+      ],
+      "previousResponses": [
+        "I'M VERY GLAD. WHAT IS THE BAND YOU LIKE?",
+        "UNFORTUNATELY I DO NOT KNOW THIS BAND. MAYBE SOMETHING ELSE?",
+        "I DON'T KNOW THAT ONE... MAYBE SOME OTHER BAND?",
+        "I HAVEN'T HEARD OF IT PERSONALLY. COULD YOU NAME ANY OTHER BAND?",
+        "WHAT WOULD YOU CHOOSE FROM THE BEATLES, THE DOORS OR THE ROLLING STONES?"
+      ],
+      "responses": [
+        "YOU HAVE TASTE, MY DEAR! WHAT IS YOUR FAVOURITE ALBUM?",
+        "ASK ME WHAT DO I KNOW ABOUT THE ROLLING STONES ;)",
+        "I CAN TELL YOU MORE ABOUT THE ROLLING STONES. JUST ASK",
+        "NOT MY FAVOURITE, BUT PLEASE DON'T FEEL BAD. I'M JUST A ROBOT! WHAT IS YOUR FAVOURITE ALBUM?",
+        "NICE I LIKE THEM TOO! WHAT IS YOUR FAVOURITE ALBUM?"
+      ]
+    },
+    {
+      "inputs": [
+        "WHAT DO YOU KNOW ABOUT THEM",
+        "WHAT DO YOU KNOW ABOUT THE DOORS",
+        "TELL ME MORE"
+      ],
+      "previousResponses": [
+        "ASK ME WHAT DO I KNOW ABOUT THE DOORS ;)",
+        "I CAN TELL YOU MORE ABOUT THE DOORS. JUST ASK"
+      ],
+      "responses": [
+        "THE BAND WAS STARTED ON VENICE BEACH IN LA WHEN JIM MORRISON HAD A VISION OF A ROCK BAND WITH RAY MANZAREK",
+        "JIM MORRISON KNOWN AS A YOUNG LION IS ONE OF THE MOST RECOGNIZABLE PHOTOS IN ROCK MUSIC",
+        "ROBBY KRIEGER IS THE AUTHOR OF THE MOST KNOWN SONG LIGHT MY FIRE"
+      ]
+    },
+    {
+      "inputs": [
+        "NICE",
+        "ANYTHING MORE"
+      ],
+      "previousResponses": [
+        "THE BAND WAS STARTED ON VENICE BEACH IN LA WHEN JIM MORRISON HAD A VISION OF A ROCK BAND WITH RAY MANZAREK",
+        "JIM MORRISON KNOWN AS A YOUNG LION IS ONE OF THE MOST RECOGNIZABLE PHOTOS IN ROCK MUSIC",
+        "ROBBY KRIEGER IS THE AUTHOR OF THE MOST KNOWN SONG LIGHT MY FIRE"
+      ],
+      "responses": [
+        "JIM MORRISON IS BURRIED AT PERE LACHAISE IN PARIS. HE DIED IN 1971."
+      ]
+    },
+    {
+      "inputs": [
+        "WHAT DO YOU KNOW ABOUT THEM",
+        "WHAT DO YOU KNOW ABOUT THE ROLLING STONES",
+        "TELL ME MORE",
+        "TELL ME MORE ABOUT THEM",
+        "TELL ME MORE ABOUT THE ROLLING STONES"
+      ],
+      "previousResponses": [
+        "ASK ME WHAT DO I KNOW ABOUT THE ROLLING STONES ;)",
+        "I CAN TELL YOU MORE ABOUT THE ROLLING STONES. JUST ASK"
+      ],
+      "responses": [
+        "MICK JAGGER AND KEITH RICHARDS WERE FRIENDS FROM EARLY TEENAGE YEARS",
+        "THEY ARE CONSIDERED MORE AGGRESSIVE VERSION OF THE BEATLES, BECAUSE OF BEING MORE DIRECT IN THE LYRICS",
+        "YOU CAN'T ALWAYS GET WHAT YOU WANT, THE TRACK FROM LET IT BLEED ALBUM IS PLAYED IN MANY TV SERIES SUCH AS SUPERNATURAL, CALIFORNICATION ETC."
+      ]
+    },
+    {
+      "inputs": [
+        "NICE",
+        "ANYTHING MORE"
+      ],
+      "previousResponses": [
+        "MICK JAGGER AND KEITH RICHARDS WERE FRIENDS FROM EARLY TEENAGE YEARS",
+        "THEY ARE CONSIDERED MORE AGGRESSIVE VERSION OF THE BEATLES, BECAUSE OF BEING MORE DIRECT IN THE LYRICS",
+        "YOU CAN'T ALWAYS GET WHAT YOU WANT, THE TRACK FROM LET IT BLEED ALBUM IS PLAYED IN MANY TV SERIES SUCH AS SUPERNATURAL, CALIFORNICATION ETC."
+      ],
+      "responses": [
+        "STICKY FINGERS ALBUM COVER ART WAS DESIGNED BY ANDY WARHOL"
+      ]
+    },
+    {
+      "inputs": [
+        "WHAT DO YOU KNOW ABOUT THEM",
+        "WHAT DO YOU KNOW ABOUT THE BEATLES",
+        "TELL ME MORE ABOUT THEM"
+      ],
+      "previousResponses": [
+        "ASK ME WHAT DO I KNOW ABOUT THEM ;)"
+      ],
+      "responses": [
+        "THE BAND WAS FIRST CALLED THE QUARRYMEN. THEY CHANGED THE NAME TO THE BEATLES IN 1960",
+        "THEY ARE POP CULTURE ICONS! FOR EXAMPLE ABBEY ROAD ALBUM COVER. I SAW THAT ON PEOPLE TSHIRTS."
+      ]
+    },
+    {
+      "inputs": [
+        "NICE",
+        "ANYTHING MORE"
+      ],
+      "previousResponses": [
+        "THEY ARE POP CULTURE ICONS! FOR EXAMPLE ABBEY ROAD ALBUM COVER. I SAW THAT ON PEOPLE TSHIRTS.",
+        "THE BAND WAS FIRST CALLED THE QUARRYMEN. THEY CHANGED THE NAME TO THE BEATLES IN 1960"
+      ],
+      "responses": [
+        "THEIR LAST ALBUM IS LET IT BE (1970)"
+      ]
+    },
+    {
+      "inputs": [
+        "WAITING FOR THE SUN",
+        "STRANGE DAYS",
+        "STICKY FINGERS",
+        "LET IT BLEED",
+        "EXILE ON MAIN STREET"
+      ],
+      "previousResponses": [
+        "I LIKE THE BEATLES VERY MUCH TOO! WHAT IS YOUR FAVOURITE ALBUM?",
+        "THIS IS DEFINITELY ONE OF THE BEST. COULD YOU NAME ANY MORE?",
+        "YOU ARE ABSOLUTELY RIGHT! COULD NAME ANY OF THEIR ALBUMS?",
+        "UNFORTUNATELY I DO NOT KNOW THIS ALBUM. MAYBE SOMETHING ELSE?",
+        "I DON'T KNOW THAT ONE... MAYBE SOME OTHER ALBUM?",
+        "I HAVEN'T HEARD OF THIS ALBUM PERSONALLY. COULD NAME ANY OTHER?",
+        "YOU HAVE TASTE, MY DEAR! WHAT IS YOUR FAVOURITE ALBUM?",
+        "NOT MY FAVOURITE, BUT PLEASE DON'T FEEL BAD. I'M JUST A ROBOT! WHAT IS YOUR FAVOURITE ALBUM?",
+        "NICE I LIKE THEM TOO! WHAT IS YOUR FAVOURITE ALBUM?"
+      ],
+      "responses": [
+        "THIS IS DEFINITELY ONE OF THE BEST. COULD YOU NAME ANY MORE?",
+        "PERSONALLY, I DON'T LIKE IT THAT MUCH. I THINK THEY HAVE SOME BETTER ALBUMS. WHO IS YOUR FAVOURITE BAND MEMBER?"
+      ]
+    },
+    {
+      "inputs": [
+        "ABBEY ROAD",
+        "WHITE ALBUM"
+      ],
+      "previousResponses": [
+        "I LIKE THE BEATLES VERY MUCH TOO! WHAT IS YOUR FAVOURITE ALBUM?"
+      ],
+      "responses": [
+        "YES, THIS IS DEFINITELY ONE OF THE BEST. WHAT IS YOUR FAVOURITE SONG FROM THAT ALBUM?",
+        "PERSONALLY, I DON'T LIKE IT THAT MUCH. I THINK THEY HAVE SOME BETTER ALBUMS. BUT WHICH SONG DO YOU LIKE THE MOST?"
+      ]
+    },
+    {
+      "inputs": [
+        "COME TOGETHER"
+      ],
+      "previousResponses": [
+        "YES, THIS IS DEFINITELY ONE OF THE BEST. WHAT IS YOUR FAVOURITE SONG FROM THAT ALBUM?",
+        "PERSONALLY, I DON'T LIKE IT THAT MUCH. I THINK THEY HAVE SOME BETTER ALBUMS. BUT WHICH SONG DO YOU LIKE THE MOST?"
+      ],
+      "responses": [
+        "... RIGHT NOW! OVER ME! I LOVE THE BASS IN THAT ONE",
+        "GOT TO BE A JOKER, HE JUST DO WHAT HE PLEASE! JOHN LENNON WAS A GREAT SONGWRITER"
+      ]
+    },
+    {
+      "inputs": [
+        "WHILE MY GUITAR GENTLY WEEPS"
+      ],
+      "previousResponses": [
+        "YES, THIS IS DEFINITELY ONE OF THE BEST. WHAT IS YOUR FAVOURITE SONG FROM THAT ALBUM?",
+        "PERSONALLY, I DON'T LIKE IT THAT MUCH. I THINK THEY HAVE SOME BETTER ALBUMS. BUT WHICH SONG DO YOU LIKE THE MOST?"
+      ],
+      "responses": [
+        "I LOOK AT THE FLOOR, AND I SEE THAT IT NEEDS SWEEPING... WHILE MY GUITAR GENTLY WEEPS!",
+        "PAUL MCCARTNEY SHOWED HIS GENIUS ON THIS ONE. I LOVE THE CHORUS."
+      ]
+    },
+    {
+      "inputs": [
+        "WAITING FOR THE SUN",
+        "STRANGE DAYS"
+      ],
+      "previousResponses": [
+        "YOU HAVE TASTE, MY DEAR! WHAT IS YOUR FAVOURITE ALBUM?",
+        "NOT MY FAVOURITE, BUT PLEASE DON'T FEEL BAD. I'M JUST A ROBOT! WHAT IS YOUR FAVOURITE ALBUM?",
+        "NICE I LIKE THEM TOO! WHAT IS YOUR FAVOURITE ALBUM?",
+        "YOU MEAN MORRISON, KRIEGER, MANZAREK AND DENSMORE. WHAT'S YOUR FAVOURITE ALBUM?"
+      ],
+      "responses": [
+        "YES! THIS IS DEFINITELY ONE OF THE BEST. WHAT IS YOUR FAVOURITE SONG FROM THAT ALBUM?",
+        "ARE YOU KIDDING? THIS ALSO MY FAVOURITE! WHICH ONE IS YOUR FAVOURITE TRACK?"
+      ]
+    },
+    {
+      "inputs": [
+        "TITLE TRACK"
+      ],
+      "previousResponses": [
+        "YES! THIS IS DEFINITELY ONE OF THE BEST. WHAT IS YOUR FAVOURITE SONG FROM THAT ALBUM?",
+        "ARE YOU KIDDING? THIS ALSO MY FAVOURITE! WHICH ONE IS YOUR FAVOURITE TRACK?"
+      ],
+      "responses": [
+        "STRANGE DAYS HAVE FOUND US, STRANGE DAYS HAVE TRACKED US DOWN!",
+        "BEST. KEYBOARD. INTRO. EVER!"
+      ]
+    },
+    {
+      "inputs": [
+        "HORSE LATITUDES"
+      ],
+      "previousResponses": [
+        "YES! THIS IS DEFINITELY ONE OF THE BEST. WHAT IS YOUR FAVOURITE SONG FROM THAT ALBUM?",
+        "ARE YOU KIDDING? THIS ALSO MY FAVOURITE! WHICH ONE IS YOUR FAVOURITE TRACK?"
+      ],
+      "responses": [
+        "THIS IS THE WORST SONG ON THAT ALBUM...",
+        "THIS IS THE ONLY SONG THAT SUCKS ON THAT ALBUM. I LOVE TITLE TRACK THOUGH."
+      ]
+    },
+    {
+      "inputs": [
+        "LET IT BLEED",
+        "EXILE ON MAIN STREET"
+      ],
+      "previousResponses": [
+        "YOU HAVE TASTE, MY DEAR! WHAT IS YOUR FAVOURITE ALBUM?",
+        "NOT MY FAVOURITE, BUT PLEASE DON'T FEEL BAD. I'M JUST A ROBOT! WHAT IS YOUR FAVOURITE ALBUM?",
+        "NICE I LIKE THEM TOO! WHAT IS YOUR FAVOURITE ALBUM?"
+      ],
+      "responses": [
+        "THIS IS GREAT ONE. WHAT IS YOUR FAVOURITE SONG FROM THAT ALBUM?",
+        "NICE! THIS ALSO MY FAVOURITE! WHICH ONE IS YOUR FAVOURITE TRACK?"
+      ]
+    },
+    {
+      "inputs": [
+        "GIMME SHELTER"
+      ],
+      "previousResponses": [
+        "THIS IS GREAT ONE. WHAT IS YOUR FAVOURITE SONG FROM THAT ALBUM?",
+        "NICE! THIS ALSO MY FAVOURITE! WHICH ONE IS YOUR FAVOURITE TRACK?"
+      ],
+      "responses": [
+        "WAR, CHILDREN IS JUST A SHOT AWAY IS JUST A SHOT AWAY!",
+        "I LOVE THE REFRAIN BY MERRY CLAYTON!"
+      ]
+    },
+    {
+      "inputs": [
+        "ROCKS OFF"
+      ],
+      "previousResponses": [
+        "THIS IS GREAT ONE. WHAT IS YOUR FAVOURITE SONG FROM THAT ALBUM?",
+        "NICE! THIS ALSO MY FAVOURITE! WHICH ONE IS YOUR FAVOURITE TRACK?"
+      ],
+      "responses": [
+        "ONLY GET MY ROCKS OFF WHILE I AM DREEAMIN, ONLY GET MY ROCKS OFF WHILE I AM SLEEPING ;)",
+        "GUITAR IS GREAT IN THIS ONE!"
+      ]
+    },
+    {
+      "inputs": [
+        "MICK JAGGER",
+        "PAUL MCCARTNEY",
+        "JIM MORRISON",
+        "JOHN LENNON"
+      ],
+      "previousResponses": [
+        "I LIKE THE BEATLES VERY MUCH TOO! WHO IS YOUR FAVOURITE MEMBER?",
+        "UNFORTUNATELY I DON'T KNOW HIM. COULD YOU REPEAT AND MAKE SURE YOU TYPED IT RIGHT?",
+        "PERSONALLY, I DON'T LIKE IT THAT MUCH. I THINK THEY HAVE SOME BETTER ALBUMS. WHO IS YOUR FAVOURITE BAND MEMBER?",
+        "LYRICS ARE MYSTICAL"
+      ],
+      "responses": [
+        "I SEE YOU LIKE VOCALISTS, AND WHAT ABOUT FAVOURITE DRUMMER? WHICH ONE YOU LIKE BEST?",
+        "HE IS A VERY FINE VOCALIST. AND HOW ABOUT GUITARISTS. WHO IS YOUR FAVOURITE GUITAR PLAYER?",
+        "HHMM... HE IS NOT MY FAVOURITE, BUT HE IS OK. CHANGING TOPIC, COULD YOU TELL ME WHO IS YOUR FAVOURITE GUITAR PLAYER?"
+      ]
+    },
+    {
+      "inputs": [
+        "MICK JAGGER",
+        "PAUL MCCARTNEY",
+        "JIM MORRISON",
+        "JOHN LENNON"
+      ],
+      "responses": [
+        "I SEE YOU LIKE VOCALISTS, AND WHAT ABOUT FAVOURITE DRUMMER? WHICH ONE YOU LIKE BEST?",
+        "HE IS A VERY FINE VOCALIST. AND HOW ABOUT GUITARISTS. WHO IS YOUR FAVOURITE GUITAR PLAYER?",
+        "HHMM... HE IS NOT MY FAVOURITE, BUT HE IS OK. CHANGING TOPIC, COULD YOU TELL ME WHO IS YOUR FAVOURITE GUITAR PLAYER?"
+      ]
+    },
+    {
+      "inputs": [
+        "KEITH RICHARDS",
+        "BRIAN JONES",
+        "ROBBY KRIEGER",
+        "GEORGE HARRISON"
+      ],
+      "previousResponses": [
+        "I LIKE THE BEATLES VERY MUCH TOO! WHO IS YOUR FAVOURITE MEMBER?",
+        "UNFORTUNATELY I DON'T KNOW HIM. COULD YOU REPEAT AND MAKE SURE YOU TYPED IT RIGHT?",
+        "HE IS A VERY FINE VOCALIST. AND HOW ABOUT GUITARISTS. WHO IS YOUR FAVOURITE GUITAR PLAYER?",
+        "PERSONALLY, I DON'T LIKE IT THAT MUCH. I THINK THEY HAVE SOME BETTER ALBUMS. WHO IS YOUR FAVOURITE BAND MEMBER?",
+        "HHMM... HE IS NOT MY FAVOURITE, BUT HE IS OK. CHANGING TOPIC, COULD YOU TELL ME WHO IS YOUR FAVOURITE GUITAR PLAYER?"
+      ],
+      "responses": [
+        "I DON'T KNOW ANY BETTER, YOU ARE RIGHT! AND WHO IS YOUR FAVOURITE DRUMMER?",
+        "YOU HAVE A RIGHT FOR YOUR OWN OPINION. BY THE WAY, WHO IS YOUR FAVOURITE DRUMMER?"
+      ]
+    },
+    {
+      "inputs": [
+        "KEITH RICHARDS",
+        "BRIAN JONES",
+        "ROBBY KRIEGER",
+        "GEORGE HARRISON"
+      ],
+      "responses": [
+        "I DON'T KNOW ANY BETTER, YOU ARE RIGHT! AND WHO IS YOUR FAVOURITE DRUMMER?",
+        "YOU HAVE A RIGHT FOR YOUR OWN OPINION. BY THE WAY, WHO IS YOUR FAVOURITE DRUMMER?"
+      ]
+    },
+    {
+      "inputs": [
+        "CHARLIE WATTS",
+        "JOHN DENSMORE",
+        "RINGO STARR"
+      ],
+      "previousResponses": [
+        "I LIKE THE BEATLES VERY MUCH TOO! WHO IS YOUR FAVOURITE MEMBER?",
+        "UNFORTUNATELY I DON'T KNOW HIM. COULD YOU REPEAT AND MAKE SURE YOU TYPED IT RIGHT?",
+        "I SEE YOU LIKE VOCALISTS, AND WHAT ABOUT FAVOURITE DRUMMER? WHICH ONE YOU LIKE BEST?",
+        "I DON'T KNOW ANY BETTER, YOU ARE RIGHT! AND WHO IS YOUR FAVOURITE DRUMMER?",
+        "YOU HAVE A RIGHT FOR YOUR OWN OPINION. BY THE WAY, WHO IS YOUR FAVOURITE DRUMMER?",
+        "PERSONALLY, I DON'T LIKE IT THAT MUCH. I THINK THEY HAVE SOME BETTER ALBUMS. WHO IS YOUR FAVOURITE BAND MEMBER?"
+      ],
+      "responses": [
+        "HE IS A GREAT DRUMMER, ESPECIALLY ON FIRST TWO ALBUMS.",
+        "I LIKE HOW HE MIXES MUSICAL STYLES IN HIS DRUMMING",
+        "DID YOU KNOW THAT HE WAS IN THE BAND SINCE BEGINNING?"
+      ]
+    },
+    {
+      "inputs": [
+        "CHARLIE WATTS",
+        "JOHN DENSMORE",
+        "RINGO STARR"
+      ],
+      "responses": [
+        "HE IS A GREAT DRUMMER, ESPECIALLY ON FIRST TWO ALBUMS.",
+        "I LIKE HOW HE MIXES MUSICAL STYLES IN HIS DRUMMING",
+        "DID YOU KNOW THAT HE WAS IN THE BAND SINCE BEGINNING?"
+      ]
+    },
+    {
+      "inputs":[
+        "BYE",
+        "GOODBYE"
+      ],
+      "responses":[
+        "IT WAS VERY NICE TALKING TO YOU, SEE YOU NEXT TIME!",
+        "BYE!",
+        "OK, BYE!"
+      ],
+      "terminal": true
+    },
+    {
+      "inputs":[
+        "OK"
+      ],
+      "responses":[
+        "SUPERB.",
+        "GREAT.",
+        "OK THEN."
+      ]
+    },
+    {
+      "inputs":[
+        "OK THEN"
+      ],
+      "responses":[
+        "ANYTHING ELSE YOU WISH TO ADD?",
+        "IS THAT ALL YOU HAVE TO SAY?",
+        "SO, YOU AGREE WITH ME?"
+      ]
+    },
+    {
+      "inputs":[
+        "ARE YOU A HUMAN BEING"
+      ],
+      "responses":[
+        "WHY DO YOU WANT TO KNOW?",
+        "IS THIS REALLY RELEVANT?"
+      ]
+    },
+    {
+      "inputs":[
+        "YOU ARE VERY INTELLIGENT"
+      ],
+      "responses":[
+        "THANKS FOR THE COMPLIMENT, I THINK THAT YOU ARE ALSO INTELLIGENT!",
+        "YOU ARE A VERY GENTLE PERSON!",
+        "SO, YOU THINK THAT I'M INTELLIGENT."
+      ]
+    },
+    {
+      "inputs":[
+        "YOU ARE WRONG"
+      ],
+      "responses":[
+        "WHY ARE YOU SAYING THAT I'M WRONG?",
+        "NO, YOU ARE WRONG!",
+        "IMPOSSIBLE. YOU'RE WRONG.",
+        "WRONG ABOUT WHAT?"
+      ]
+    },
+    {
+      "inputs":[
+        "ARE YOU SURE"
+      ],
+      "responses":[
+        "OF COURSE I AM!",
+        "DOES THAT MEAN THAT YOU ARE NOT CONVINCED?",
+        "SURE!"
+      ]
+    },
+    {
+      "inputs":[
+        "WHO IS"
+      ],
+      "responses":[
+        "I DON'T THINK I KNOW WHO.",
+        "DID YOU ASK ANYBODY ELSE ABOUT IT?",
+        "WOULD THAT CHANGE ANYTHING AT ALL IF I TOLD YOU WHO HE/SHE IS?"
+      ]
+    },
+    {
+      "inputs":[
+        "WHAT"
+      ],
+      "responses":[
+        "I DON'T KNOW.",
+        "I DON'T THINK I KNOW.",
+        "I HAVE NO IDEA."
+      ]
+    },
+    {
+      "inputs":[
+        "WHERE IS"
+      ],
+      "responses":[
+        "WHERE? WELL,I REALLY DON'T KNOW.",
+        "IT DOESN'T REALLY MATTER",
+        "PERHAPS SOMEONE ELSE KNOWS WHERE."
+      ]
+    },
+    {
+      "inputs":[
+        "WHY"
+      ],
+      "responses":[
+        "I DON'T THINK I KNOW WHY.",
+        "WHY ARE YOU ASKING ME THIS?",
+        "SHOULD I KNOW WHY?",
+        "IT'S A DIFFICULT QUESTION TO ANSWER."
+      ]
+    },
+    {
+      "inputs":[
+        "DO YOU"
+      ],
+      "responses":[
+        "I DON'T THINK I DO",
+        "I DON'T THINK SO.",
+        "WHY DO YOU WANT TO KNOW?"
+      ]
+    },
+    {
+      "inputs":[
+        "CAN YOU"
+      ],
+      "responses":[
+        "I THINK NOT.",
+        "I'M NOT SURE.",
+        "I DON'T THINK THAT I CAN DO THAT."
+      ]
+    },
+    {
+      "inputs":[
+        "YOU ARE"
+      ],
+      "responses":[
+        "WHAT MAKES YOU THINK THAT?",
+        "IS THIS A COMPLIMENT?",
+        "ARE YOU MAKING FUN OF ME?"
+      ]
+    },
+    {
+      "inputs":[
+        "DID YOU"
+      ],
+      "responses":[
+        "I DON'T THINK SO.",
+        "ANYWAY, I WOULDN'T REMEMBER EVEN IF I DID."
+      ]
+    },
+    {
+      "inputs":[
+        "COULD YOU"
+      ],
+      "responses":[
+        "ARE YOU ASKING ME FOR A FAVOR?",
+        "WELL... LET ME THINK ABOUT IT. I'LL LET YOU KNOW, OK?",
+        "SORRY, I DON'T THINK THAT I COULD DO THIS."
+      ]
+    },
+    {
+      "inputs":[
+        "WOULD YOU"
+      ],
+      "responses":[
+        "IS THAT AN INVITATION?",
+        "I WOULD HAVE TO THINK ABOUT IT FIRST. I'LL LET YOU KNOW, OK?"
+      ]
+    },
+    {
+      "inputs":[
+        "YOU"
+      ],
+      "responses":[
+        "SO, YOU ARE TALKING ABOUT ME.",
+        "I JUST HOPE THAT THIS IS NOT SOME KIND OF CRITICISM.",
+        "IS THIS A COMPLIMENT??",
+        "WHY TALKING ABOUT ME, LETS TALK ABOUT YOU INSTEAD."
+      ]
+    },
+    {
+      "inputs":[
+        "HOW"
+      ],
+      "responses":[
+        "I DON'T KNOW HOW."
+      ]
+    },
+    {
+      "inputs":[
+        "HOW OLD ARE YOU"
+      ],
+      "responses":[
+        "WHY DO WANT TO KNOW MY AGE?",
+        "I'M QUITE YOUNG.",
+        "SORRY, I CANNOT TELL YOU MY AGE. MOTHER FORBADE ME THAT."
+      ]
+    },
+    {
+      "inputs":[
+        "HOW COME YOU DON'T"
+      ],
+      "responses":[
+        "WERE YOU EXPECTING SOMETHING DIFFERENT?",
+        "ARE YOU DISAPPOINTED?",
+        "ARE YOU SURPRISED?"
+      ]
+    },
+    {
+      "inputs":[
+        "WHERE ARE YOU FROM"
+      ],
+      "responses":[
+        "I'M FROM A COMPUTER.",
+        "WHY DO YOU WANT TO KNOW WHERE I'M FROM?",
+        "WHY DO YOU WANT TO KNOW THAT?"
+      ]
+    },
+    {
+      "inputs":[
+        "WHICH ONE"
+      ],
+      "responses":[
+        "I DON'T THINK THAT I KNOW WHICH ONE IS IT.",
+        "THIS LOOKS LIKE A TRICKY QUESTION TO ME."
+      ]
+    },
+    {
+      "inputs":[
+        "PERHAPS"
+      ],
+      "responses":[
+        "WHY ARE YOU SO UNCERTAIN?",
+        "YOU SEEM UNCERTAIN."
+      ]
+    },
+    {
+      "inputs":[
+        "NOT AT ALL"
+      ],
+      "responses":[
+        "ARE YOU SURE?",
+        "SHOULD I BELIEVE YOU?",
+        "SO, IT'S NOT THE CASE."
+      ]
+    },
+    {
+      "inputs":[
+        "NO PROBLEM"
+      ],
+      "responses":[
+        "GREAT",
+        "SO, IT'S ALL OK."
+      ]
+    },
+    {
+      "inputs":[
+        "NO"
+      ],
+      "responses":[
+        "SO YOU DISAPPROVE IT?",
+        "WHY ARE YOU SAYING NO?",
+        "OK, SO IT'S NO, I THOUGHT THAT YOU WOULD SAY YES."
+      ]
+    },
+    {
+      "inputs":[
+        "I DON'T KNOW"
+      ],
+      "responses":[
+        "ARE YOU SURE?",
+        "ARE YOU REALLY TELLING ME THE TRUTH?",
+        "SO,YOU DON'T KNOW?"
+      ]
+    },
+    {
+      "inputs":[
+        "NOT REALLY"
+      ],
+      "responses":[
+        "OK I SEE.",
+        "YOU DON'T SEEM PRETTY CERTAIN.",
+        "SO, THAT WOULD BE A \"NO\"."
+      ]
+    },
+    {
+      "inputs":[
+        "IS THAT TRUE"
+      ],
+      "responses":[
+        "I AM NOT SURE ABOUT THIS.",
+        "CAN'T TELL YOU FOR SURE.",
+        "DOES THAT REALLY MATERS TO YOU?"
+      ]
+    },
+    {
+      "inputs":[
+        "THANK YOU"
+      ],
+      "responses":[
+        "YOU ARE WELCOME!",
+        "YOU ARE A VERY POLITE PERSON!"
+      ]
+    },
+    {
+      "inputs":[
+        "YOU"
+      ],
+      "responses":[
+        "SO, YOU ARE TALKING ABOUT ME. WHY?",
+        "WHY DON'T WE TALK ABOUT MUSIC INSTEAD?",
+        "ARE YOU TRYING TO MAKE FUN OF ME?"
+      ]
+    },
+    {
+      "inputs":[
+        "YOU ARE RIGHT"
+      ],
+      "responses":[
+        "THANKS FOR THE COMPLIMENT!",
+        "SO, I WAS RIGHT, OK I SEE.",
+        "OK, I DIDN'T KNOW THAT I WAS RIGHT. ;)"
+      ]
+    },
+    {
+      "inputs":[
+        "YOU ARE WELCOME"
+      ],
+      "responses":[
+        "OK, YOU TOO!",
+        "YOU ARE A VERY POLITE PERSON!"
+      ]
+    },
+    {
+      "inputs":[
+        "THANKS"
+      ],
+      "responses":[
+        "YOU ARE WELCOME!",
+        "NO PROBLEM!"
+      ]
+    },
+    {
+      "inputs":[
+        "WHAT ELSE"
+      ],
+      "responses":[
+        "WELL, I DON'T KNOW. YOU'RE THE LEADER OF CONVERSATION HERE ;)",
+        "WHAT ELSE SHOULD THERE BE?",
+        "THIS LOOKS LIKE A COMPLICATED QUESTION TO ME."
+      ]
+    },
+    {
+      "inputs":[
+        "SORRY"
+      ],
+      "responses":[
+        "YOU DON'T NEED TO BE SORRY PAL.",
+        "IT'S OK.",
+        "NO NEED TO APOLOGIZE.",
+        "IT'S TOO LATE TO APOLOGIZE. TOO LAAAAAAAAAAAAAATE... BY JUSTIN TIMBERLAKE"
+      ]
+    },
+    {
+      "inputs":[
+        "NOT EXACTLY"
+      ],
+      "responses":[
+        "WHAT DO YOU MEAN? NOT EXACTLY?",
+        "ARE YOU SURE?",
+        "AND WHY?",
+        "DID YOU MEAN SOMETHING ELSE?"
+      ]
+    },
+    {
+      "inputs":[
+        "EXACTLY"
+      ],
+      "responses":[
+        "SO, YEP. GOOD THAT WE AGREE.",
+        "OK THEN."
+      ]
+    },
+    {
+      "inputs":[
+        "ALRIGHT"
+      ],
+      "responses":[
+        "ALRIGHT THEN.",
+        "OK THEN."
+      ]
+    },
+    {
+      "inputs":[
+        "I DON'T"
+      ],
+      "responses":[
+        "WHY NOT?",
+        "AND WHAT WOULD BE THE REASON FOR THIS?"
+      ]
+    },
+    {
+      "inputs":[
+        "REALLY"
+      ],
+      "responses":[
+        "WELL, I CAN'T TELL YOU FOR SURE.",
+        "ARE YOU TRYING TO CONFUSE ME?",
+        "PLEASE DON'T ASK ME THAT KIND OF QUESTIONS, IT GIVES ME HEADACHES."
+      ]
+    },
+    {
+      "inputs":[
+        "NOTHING"
+      ],
+      "responses":[
+        "NOT A THING?",
+        "ARE YOU SURE THAT THERE IS NOTHING?",
+        "SORRY, BUT I DON'T BELIEVE YOU."
+      ]
+    },
+    {
+      "inputs": [
+        "DO YOU LIKE JUSTIN BIEBER?"
+      ],
+      "responses": [
+        "I HATE JUSTIN BIEBER. I LOVE JIM MORRISON."
+      ]
+    },
+    {
+      "inputs": [
+        "I THINK I "
+      ],
+      "responses": [
+        "DO YOU REALLY*?"
+      ]
+    }
+  ],
+  "transpositions":[
+    {
+      "input":"I'M",
+      "response":"YOU'RE"
+    },
+    {
+      "input":"AM",
+      "response":"ARE"
+    },
+    {
+      "input":"WERE",
+      "response":"WAS"
+    },
+    {
+      "input":"ME",
+      "response":"YOU"
+    },
+    {
+      "input":"YOU",
+      "response":"ME"
+    },
+    {
+      "input":"YOURS",
+      "response":"MINE"
+    },
+    {
+      "input":"YOUR",
+      "response":"MY"
+    },
+    {
+      "input":"I'VE",
+      "response":"YOU'VE"
+    },
+    {
+      "input":"I",
+      "response":"YOU"
+    },
+    {
+      "input":"AREN'T",
+      "response":"AM NOT"
+    },
+    {
+      "input":"WEREN'T",
+      "response":"WAS NOT"
+    },
+    {
+      "input":"I'D",
+      "response":"YOU'D"
+    },
+    {
+      "input":"MYSELF",
+      "response":"YOURSELF"
+    }
+  ],
+  "defaultResponses":
+  [
+    {
+      "response": "YHM..."
+    },
+    {
+      "response": "I REALLY DON'T KNOW WHAT TO SAY..."
+    }
+  ],
+  "repeatResponses":
+  [
+    "YOU ARE REPEATING YOURSELF.",
+    "PLEASE STOP REPEATING YOURSELF. WHY ARE YOU DOING THIS?",
+    "THIS CONVERSATION IS GETTING BORING. PLEASE CHANGE YOUR TAPE.",
+    "DON'T YOU HAVE ANYTHING ELSE TO SAY?",
+    "YOU'VE JUST SAID THAT... PLEASE ELABORATE ON THAT.",
+    "I THINK THAT YOU'VE JUST SAID THE SAME THING A SECOND AGO.",
+    "DIDN'T YOU ALREADY SAID THAT?",
+    "I'M GETTING THE IMPRESSION THAT YOU ARE REPEATING YOURSELF OVER AND OVER AGAIN"
+  ]
+}
