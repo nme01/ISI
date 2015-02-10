@@ -274,16 +274,12 @@
     },
     {
       "inputs": [
-        "MY NAME IS"
-      ],
-      "previousResponses": [
-        "HELLO, WHAT IS YOUR NAME?"
+        "HELLO ELIZA"
       ],
       "responses": [
-        "NICE TO MEET YOU $1. WHAT IS THE BAND YOU LIKE?"
+        "HELLO, WHAT IS YOUR NAME?"
       ]
     },
-
     {
       "inputs": [
         "YES",
@@ -291,11 +287,8 @@
         "OK"
       ],
       "previousResponses": [
-        "HELLO, DO YOU LIKE MUSIC?",
-        "HI, LET'S TALK ABOUT MUSIC, OK?",
-        "ELIZA HERE, NICE TO MEET YOU. WANT TO TALK ABOUT MUSIC?",
-        "SO, PRETTY NAME YOU HAVE HERE. LET'S TALK ABOUT MUSIC, OK?",
-        "THANKS FOR TELLING ME YOUR NAME! DO YOU LIKE MUSIC?",
+        "THANKS FOR TELLING ME YOUR NAME! DO YOU LIKE MUSIC,*?",
+        "SO, PRETTY NAME YOU HAVE HERE. LET'S TALK ABOUT MUSIC, OK*?",
         "I HAVE NO IDEA OF WHAT YOU ARE TALKING ABOUT. MAYBE WE COULD TALK ABOUT MUSIC?",
         "I AM A BIT CONFUSED. LET'S TALK ABOUT SOME BAND, OK?",
         "UHM... I NEED TO THINK ABOUT THAT. I'LL LET YOU KNOW. ;). DO YOU LIKE MUSIC?"
@@ -310,12 +303,8 @@
         "NEVER"
       ],
       "previousResponses": [
-        "HELLO, DO YOU LIKE MUSIC?",
-        "HI, LET'S TALK ABOUT MUSIC, OK?",
-        "ELIZA HERE, NICE TO MEET YOU. WANT TO TALK ABOUT MUSIC?",
         "SO, PRETTY NAME YOU HAVE HERE. LET'S TALK ABOUT MUSIC, OK?",
         "THANKS FOR TELLING ME YOUR NAME! DO YOU LIKE MUSIC?",
-        "I AM A BIT CONFUSED. LET'S TALK ABOUT SOME BAND, OK?",
         "I HAVE NO IDEA OF WHAT YOU ARE TALKING ABOUT. MAYBE WE COULD TALK ABOUT MUSIC?",
         "I AM A BIT CONFUSED. LET'S TALK ABOUT SOME BAND, OK?",
         "UHM... I NEED TO THINK ABOUT THAT. I'LL LET YOU KNOW. ;). DO YOU LIKE MUSIC?"
@@ -386,7 +375,6 @@
       "responses": [
         "YOU HAVE TASTE, MY DEAR! WHAT IS YOUR FAVOURITE ALBUM?",
         "ASK ME WHAT DO I KNOW ABOUT THE DOORS ;)",
-
         "NOT MY FAVOURITE, BUT PLEASE DON'T FEEL BAD. I'M JUST A ROBOT! WHAT IS YOUR FAVOURITE ALBUM?",
         "NICE I LIKE THEM TOO! WHAT IS YOUR FAVOURITE ALBUM?",
         "YOU MEAN MORRISON, KRIEGER, MANZAREK AND DENSMORE. WHAT'S YOUR FAVOURITE ALBUM?",
@@ -533,7 +521,8 @@
         "WHITE ALBUM"
       ],
       "previousResponses": [
-        "I LIKE THE BEATLES VERY MUCH TOO! WHAT IS YOUR FAVOURITE ALBUM?"
+        "I LIKE THE BEATLES VERY MUCH TOO! WHAT IS YOUR FAVOURITE ALBUM?",
+        "YOU MEAN LENNON MCCARTNEY STARR AND HARRISON. WHAT'S YOUR FAVOURITE ALBUM?"
       ],
       "responses": [
         "YES, THIS IS DEFINITELY ONE OF THE BEST. WHAT IS YOUR FAVOURITE SONG FROM THAT ALBUM?",
@@ -683,9 +672,9 @@
     },
     {
       "inputs": [
-        "KEITH RICHARDS",
-        "BRIAN JONES",
-        "ROBBY KRIEGER",
+        "PAUL MCCARTNEY",
+        "JOHN LENNON",
+        "RINGO STAR",
         "GEORGE HARRISON"
       ],
       "previousResponses": [
@@ -1245,6 +1234,15 @@
     },
     {
       "response": "I REALLY DON'T KNOW WHAT TO SAY..."
+    },
+    {
+      "response": "I HAVE NO IDEA OF WHAT YOU ARE TALKING ABOUT. MAYBE WE COULD TALK ABOUT MUSIC?"
+    },
+    {
+      "response": "I AM A BIT CONFUSED. LET'S TALK ABOUT SOME BAND, OK?"
+    },
+    {
+      "response": "UHM... I NEED TO THINK ABOUT THAT. I'LL LET YOU KNOW. ;). DO YOU LIKE MUSIC?"
     }
   ],
   "repeatResponses":
